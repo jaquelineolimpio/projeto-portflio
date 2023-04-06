@@ -7,7 +7,7 @@
     <title>Meu Portfólio</title>
     <link rel="stylesheet" href="style.css">   
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
-    <link rel="shortcut icon" href="./img/Screenshot_20230329_204505_Instagram-removebg-preview.png">
+    <link rel="shortcut icon" href="./img/avatar.png">
 </head>
 <body>
     <header class="header-menu">
@@ -15,7 +15,7 @@
             <ul class="lista-menu">
                 <li><a href="#formacao"> Formação</a></li>
                 <li><a href="#portifolio"> Portfólio</a></li>
-                <li><a href="contato">Contato</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -23,8 +23,8 @@
     <main>
         <section class="principal">
             <article class="subcontainer-principal container">
-            <div>
-                <img src="img/Screenshot_20230329_204505_Instagram-removebg-preview.png" alt="Minha imagem de perfil">
+            <div >
+                <img src="img/avatar.png" alt="Minha imagem de perfil">
             </div>
             <div>
                 <h1 class="nome-completo">Jaqueline Gomes Olimpio</h1><br>
@@ -45,10 +45,10 @@
             </div> 
             </article>
         </section>
-
-        <section id="formacao">
+     
+        <section id="formacao" class="meio">
             <article class="container article-lista">
-            <div>
+            <div >
                 <h3 class="topico-principal">Formação</h3>
             </div>
             
@@ -59,7 +59,7 @@
                         <a href="https://www.pretalab.com/formacao" target="_blank" class="lista-local">Pretalab Olabi</a>
                     <p class="lista-descricao">
                         Conhecimento Técnico: Lógica de programação, HTML, CSS e Javascript;<br>
-                        Pilar de Auto conhecimento para desenvolvimento de habilidades <br>
+                        Pilar de Auto conhecimento para desenvolvimento de habilidades
                         e competências socioemocionais;
                         Auto Gestão com mentoria e exercícios práticos.</p> </li></ul> </br> </br>
                     </p>
@@ -86,39 +86,57 @@
                     <li>
                         <p class="lista-titulo">Análise e Desenvolvimento de Sistema</p>
                         <a href="https://portal.fmu.br/cursos/graduacao/analise-e-desenvolvimento-de-sistemas/" target="_blank" class="lista-local">Centro Universitário FMU</a>
+                    <p class="lista-descricao">
+                        <p class="lista-descricao">
+                        Desenvolvimento de diversos tipos de programas, construindo telas e menus, armazenando dados e emitindo relatórios, inclusive para dispositivos móveis.;<br>
+                        Coordenação e gerenciamento de equipes e projetos de produção de softwares;<br>
+                        Capacidade de atuar nas diversas áreas da programação, como: banco de dados, web e aplicativos;<br>
+                        Realização de perícias e emissão de laudos técnicos na área de tecnologia;<br>
+                        Desenvolvimento de tecnologias e ferramentas da Engenharia de Software, linguagens de programação e bancos de dados;
+                    </p>
+                    </p>
                     </li>
                 </ul>
             </div>
             </article>
-        </section>
 
-        <section id="Portfólio"> 
+        </section>
+    
+        <section id="portifolio" class="principal"> 
             <article class="container article-lista">
             <div>
-                <h3 class="lista-titulo">Meus Projetos</h3>
+                <h3 class="topico-principal">Meus Projetos</h3>
             </div>
             
             <div class="lista-item"> 
                 <ul>
                     <li>
-                        <p>Calculadora</p>
-                        <a href="https://calculajaque.netlify.app/" target="_blank">Calculadora da Jaque</a>
-                    <p>
-                        Projeto de conlusão do módulo 1 do Ciclo Formatativo da PretaLab 
+                        <p class="lista-titulo">Calculadora</p>
+                        <a href="https://calculajaque.netlify.app/" target="_blank" class="lista-local">Calculadora da Jaque</a>
+                    <p class="lista-descricao">
+                        Projeto de conclusão do módulo de lógica de programação do curso O Poder do Futuro, uma parceria da PretaLab com a Disney.</br>
+                        Aqui tivemos acesso ao conhecimento de lógica com Javascript: variáveis e constantes, operadores aritméticos e lógicos, estruturas condicionais e de repetição.</br>
+                        Este projeto tem como intuito demonstrar através da pratica o conhecimento adquirido.</br></br></br>
                     </p>
 
                     </li>
 
                     <li>
-                        <p>Website Estático</p>
-                        <a href="https://escoladanuvem.org/curso-aws-fundamentos/" target="_blank">Escola da Nuvem</a>
-                    <p>
-                        
+                        <p class="lista-titulo">Website Estático</p>
+                        <a href="https://escoladanuvem.org/curso-aws-fundamentos/" target="_blank" class="lista-local">Escola da Nuvem</a>
+                    <p class="lista-descricao">
+                        Projeto de conclusão de curso Fundamentos AWS da Escola da Nuvem.</br></br>
+                        Website para divulgação de currículo onde utilizamos os seguintes serviços AWS:</br>
+                        AWS S3 para armazenamento dos objetos com escabilidade, segurança e performance;</br>
+                        AWS CLOUDFRONT para entrega do conteúdo com baixa latência, segurança e melhor entregabilidade;</br>
+                        AWS CERTIFICATE MANAGE SSL/TSL E HTTPS para garantir a segurança no tráfego de dados;</br>
+                        AWS ROUTE 53 utilizado para fazer o apontamento do domínio para o website criado.
                     </p>
                     </li>               
                 </ul>
             </div>
-
+        </section>
+    </main>
             <footer class="rodape" id="contato">
                 <div class="container">
                   <ul class="lista-rodape">
@@ -130,10 +148,6 @@
                 </div>
             </footer>
             </article>
-
-        </section>
-    </main>
-
 
 </body>
 </html>
