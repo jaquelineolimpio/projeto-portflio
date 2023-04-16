@@ -76,7 +76,7 @@ li {
     font-size: 36px;
     color: #133B5C;
     font-weight: 700;
-    height: 45px;
+    height: 40px;
     width: 100%;
     display: flex;
 }
@@ -86,6 +86,7 @@ li {
     height: 60px;
     width: 100%;
     padding-top: 4%;
+    line-height: 2%;
    
   
 }
@@ -197,4 +198,21 @@ li {
     height: 197vh;
     display: flex;
     background-color: #fafbfd ;
+ }
+
+ .botao{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    
+ }
+
+ .botao:hover{
+   color: #00909E;
+ }
+
+ .botao-curriculo{
+     cursor: pointer;
+       
+    
  }
